@@ -23,7 +23,7 @@ class Artist
 
   def self.song_count
     count = 0
-    Song.each { |song|
+    Song.all.each { |song|
       count += 1
     }
     count
