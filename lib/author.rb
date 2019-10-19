@@ -23,5 +23,6 @@ class Author
     Post.all.each {|post|
       count += 1
     }
+    count
   end
 end
