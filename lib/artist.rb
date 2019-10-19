@@ -21,4 +21,11 @@ class Artist
     add_song(song)
   end
 
+  def self.song_count
+    count = 0
+    @songs.each { |song  
+      count += 1
+    }
+  end
+
 end
