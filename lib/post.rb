@@ -12,4 +12,6 @@ class Post
     @@all
   end
 
+  def author
+  end
 end 
