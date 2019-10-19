@@ -26,6 +26,7 @@ class Artist
     Song.each { |song|
       count += 1
     }
+    count
   end
 
 end
