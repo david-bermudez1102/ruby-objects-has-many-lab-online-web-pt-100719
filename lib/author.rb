@@ -19,6 +19,9 @@ class Author
   end
 
   def self.post_count
-
+    count = 0
+    Post.all.each {|post|
+      count += 1
+    }
   end
 end
